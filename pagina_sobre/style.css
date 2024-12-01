@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'FinkHeavy';
+    src: url('resources/Animal-Crossing-Font/FinkHeavy.ttf') format('truetype');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'FinkHeavy', sans-serif;
+}
+
+body{
+    background-image: url('https://animalcrossing.nintendo.com/assets/img/patterns/pattern-trees.jpg');
+}
+
+header{
+    padding-bottom: 2%;
+    display: flex;
+    align-items: center;
+    gap: 20%;
+    margin-bottom: 5%;
+}
+
+.logo{
+    margin-left: 5%;
+}
+
+img{
+    width: 14%;
+    height: 20%;
+    padding-left: 2%;
+}
+
+@keyframes pulsar {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+a{
+    text-decoration: none;
+    font-size: 30px;
+    margin: 5%;
+    margin-left: 1%;
+    margin-top: 4%;
+    margin-bottom: -1%;
+    color: black;
+    animation: pulsar 2.5s infinite;
+    transition: transform 0.7s ease, color 0.3s ease;
+}
+
+a:hover {
+    animation: none;
+    transform: scale(1.5); 
+    color: #ffffff;
+}
+
+main{
+    align-items: center;
+    justify-content: center;
+    background: #f5f0c9;
+    width: 60%;
+    margin: 0 auto;
+    padding: 5%;
+    border-radius:25px;
+    margin-bottom: 50px;
+}
+
+h2{
+    margin-bottom: 4%;
+    color: #f79f3b;
+}
+
+p{
+    margin-bottom: 4%;
+}
+
+.isabelle{
+    width: 120px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    justify-self: center;
+    align-self: center;
+    margin-left: 39%;
+}
+
+.cojura{
+    justify-self: center;
+    align-self: center;
+    margin-left: 65%;
+    margin-bottom: -6px;
+    margin-top: -50px;
+}
+
+.assets{
+    width: 100%;
+    margin-left: -26px;
+    margin-bottom: -6px;
+}
