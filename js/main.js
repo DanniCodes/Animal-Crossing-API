@@ -14,7 +14,7 @@ async function exibir(){
 
         
     var infos = {
-        "X-API-Key": "cf36d5d9-e768-4d25-b172-9098ad81fa03",   
+        "X-API-Key": "",   
         "Accept-Version": "1.7.0",                     
 
 };
